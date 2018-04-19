@@ -1,6 +1,6 @@
 {
   "name": "html-prettier",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "description": "html-prettier",
   "main": "index.js",
   "scripts": {
@@ -21,6 +21,6 @@
   "homepage": "https://github.com/NewNewKing/html-prettier#readme",
   "dependencies": {
     "file-system": "^2.2.2",
-    "htmldom": "^3.0.4"
+    "htmldom": "^3.0.5"
   }
 }
