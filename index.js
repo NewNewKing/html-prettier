@@ -5,7 +5,10 @@ const htmldom = require('htmldom')
 const path = require('path')
 
 const argv = process.argv.slice(2)
-const url = path.resolve(process.cwd(), argv[0])
+const url = argv[0]
+if(!url) { 
+  throw new Error('请输入文件或文件夹路径')
+}
 
 function formatter(filepath){
   fileSystem.readFile(filepath, (err, data) => {
