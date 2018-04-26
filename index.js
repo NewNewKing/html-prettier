@@ -17,9 +17,7 @@ function formatter(filepath){
       selfClosed: true
     })
 
-    fileSystem.writeFileSync(filepath, html, (err) => {
-      if(err) console.log('文件读写失败')
-    })
+    fileSystem.writeFileSync(filepath, html)
   })
 }
 
